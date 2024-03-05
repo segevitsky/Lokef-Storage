@@ -1,0 +1,21 @@
+{
+  "name": "lokef-storage",
+  "version": "1.0.6",
+  "description": "An asynchronous localStorage alternative using IndexedDB",
+  "main": "dist/lokefStorage.js",
+  "module": "dist/lokefStorage.js",
+  "types": "dist/lokefStorage.d.ts",
+  "scripts": {
+    "build": "tsc && mkdir -p dist && cp src/*.js src/*.d.ts dist/"
+  },
+  "keywords": [
+    "localStorage",
+    "IndexedDB",
+    "asynchronous"
+  ],
+  "author": "Segevitsky",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
