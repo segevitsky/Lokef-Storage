@@ -1,6 +1,6 @@
 {
   "name": "lokef-storage",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An asynchronous localStorage alternative using IndexedDB",
   "main": "dist/lokefStorage.js",
   "module": "dist/lokefStorage.js",
