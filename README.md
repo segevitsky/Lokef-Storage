@@ -40,6 +40,24 @@ import LokefStorage from 'lokef-storage';
 })();
 
 
+(async () => {
+  try {
+    const allItems = await LokefStorage.getAll();
+    console.log('All items:', allItems);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
+
+
+(async () => {
+  try {
+    const rangeData = await LokefStorage.getRangeData('key1', 'key3');
+    console.log('Range data:', rangeData);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
+})();
 
 API
 setItem(key: string, value: any): Promise<void>
